@@ -1,0 +1,93 @@
+@import url("https://fonts.googleapis.com/css2?family=Audiowide&family=DotGothic16&family=Rubik+Glitch&family=Sriracha&family=Young+Serif&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: rgb(255, 216, 165);
+  display: flex;
+  justify-content: center;
+}
+.main {
+  font-family: "Outfit";
+  background-color: white;
+  margin: 5rem 0;
+  width: 100%;
+  max-width: 600px;
+  padding: 0 2rem 2rem;
+  border-radius: 1rem;
+}
+.main div{
+    border-top: 1px solid rgb(163, 163, 163);
+    margin-top:3rem;
+    padding-top: 1rem;
+}
+*{
+    margin-top: 1rem;
+}
+h1,
+h3 {
+  font-family: "Young Serif", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+h1{
+    font-size: 2rem;
+}
+h3{
+    color:hsl(14, 45%, 36%);
+}
+li{
+    margin-left: 1em;
+}
+li::marker{
+    color: hsl(14, 45%, 36%);
+}
+/* image part */
+.image{
+    width: 100%;
+    height: 300px;
+    background: url(../recipe-page-main/assets/images/image-omelette.jpeg);
+    background-size: cover;
+    border-radius: 1rem;
+    margin-bottom: 20px;
+    border-top: none;
+    margin-top: 0;
+}
+/* time part */
+.time{
+    background-color: hsl(330, 100%, 98%);
+    border-radius: 1rem;
+    padding: 1em 2em;
+}
+
+.time-list li span{
+    font-weight: bold;
+}
+/* ingredinets part */
+
+/* instructions part */
+.inst-list li span{
+    font-weight: bold;
+}
+/* Nutrition  time */
+
+.nut-list{
+    list-style-type: none;
+}
+.nut-list li{
+    border-top: 1px solid rgb(163, 163, 163);
+    padding-top: 4px;
+    margin-left: 0;
+    
+}
+.nut-list li:first-child{
+    border-top: none;
+}
+.nut-list span{
+    margin-left: 200px;
+    font-weight: bold;
+    color: brown;
+}
