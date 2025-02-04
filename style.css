@@ -49,7 +49,7 @@ li::marker{
 .image{
     width: 100%;
     height: 300px;
-    background: url(../recipe-page-main/assets/images/image-omelette.jpeg);
+    background: url(./image-omelette.jpeg);
     background-size: cover;
     border-radius: 1rem;
     margin-bottom: 20px;
